@@ -1,0 +1,25 @@
+
+
+	#tituloPrincipal{
+		text-align: center;
+		font-family: cursive;
+	}
+	#data{
+		text-align:center;
+		float: right;
+	}
+	#dt{
+		text-align: center;
+	}
+	#tabela{
+		color: black;
+	}
+	#tabelaFooter{
+		width: 1000px;
+	}
+	.textoAlinhado{
+		text-align: center;
+	}
+	.textoAEsquerda{
+		float: right;
+	}

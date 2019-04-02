@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Pacifico|Source+Sans+Pro');
+
+  html{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+  }
+  body{
+    background-color: #00142d;
+  }
+
+  .navbar.navbar-2 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+  }
+
+    .modal-body{
+  height: 350px;
+  overflow: hidden;
+}
+
+
+
+
+.modal-body:hover{
+  overflow-y: auto;
+}
+.popupheader{
+  background-color: #343a40;
+  color: white;
+}
+
+.fade{
+  opacity: 1;
+  -webkit-transaction: opacity 1s linear;
+  transition:opacity 1s linear;
+}
+
+
+  .laranjaEasy{
+    background-color: #f6ab33;
+  }
+  #logoInvictus{
+    width: 140px;
+    margin-left: 30px;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    color: black;
+  }
+  #prime{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: black;
+  }
+  .fontMenu{
+    font-family: 'Cinzel', serif;
+  }
+  #btMenu{
+    font-size: 35px;
+    color: white;
+  }
+
+  .menu-logo{
+  margin-left: -70px;
+
+  }
+
+
+  .carousel-inner img{
+width: 100%;
+height: 100%;
+-webkit-filter: brightness(50%) blur(3px);
+filter: brightness(50%) blur(3px);
+  }
+
+Background{
+  filter: blur(5px);
+}
+
+.col-13{
+	background-image: url(img/img4.png) ;
+	background-attachment: fixed;
+	color: white;
+
+
+
+}
+
+.col-14{
+	background-image: url(img/img4.png);
+	background-attachment: fixed;
+
+
+}
+
+
+url{
+filter: brightness(45%);
+}
+.display-4{
+
+	filter: none;
+}
+  .carousel-caption{
+
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+text-transform: uppercase;
+
+
+  }
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+.welcome{
+width: 75%;
+margin: 0 auto;
+padding-top: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #fff;
+  width: 75%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-code{
+  color: #e54d26;
+}
+
+.fa-coffee{
+  color: #c4c4c4;
+}
+
+
+.fa-mobile{
+  color: #2163af;
+}
+
+.fa-code, .fa-coffee, .fa-mobile{
+  font-size: 4em;
+  margin: 1rem;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+footer{
+  background-color: #343A40;
+  padding-top: 2rem;
+}
+
+hr.light{
+border-top: 1px solid #d5d5d5;
+width: 75%;
+margin-top: .8rem;
+margin-bottom: 1rem;
+
+}
+
+footer a{
+color: #d5d5d5;
+
+}
+
+hr.light-100{
+border-top: 1px solid #d5d5d5;
+width: 100%;
+margin-top: .8rem;
+
+}
+
+
+/*Estilo duvida/comentário*/
+
+  .divDuvida{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .envoltaDiv{
+    height: 100%;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin: 5px;
+  }
+  .divTable{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  .corLink{
+    color: #EAEBED;
+  }
+
+/*Fim estilo duvida/comentário*/
+
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #2163af;
+}
+.fa-4x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #2163af;
+}
+
+/*Inicio Footer*/
+ul{
+  list-style-type:none;
+  text-align: center;
+
+}
+.social a{
+  font-size: 4.5em;
+  padding:3rem;
+}
+
+.social2 a{
+    font-size: 2.5em;
+  page-break-after: 1rem;
+}
+.fa-facebook
+{
+  color:#3b5998;
+
+}
+.fa-twitter{
+    color: #00aced;
+}
+
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+
+.fa-instagram{
+    color: #517fa4;
+}
+
+.fa-youtube{
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+
+.fa-twitter:hover,
+
+.fa-google-plus-g:hover,
+
+.fa-instagram:hover,
+
+.fa-youtube:hover{
+  color: #d5d5d5;
+}
+/*Fim Footer*/
+
+
+
+
+
+  .carousel-caption h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    transition: 0.5s;
+  }
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+	  .carousel-caption{
+
+position: absolute;
+top: 40%;
+transform: translateY(-50%);
+text-transform: uppercase;
+
+
+  }
+
+
+
+  .carousel-caption h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    transition: 0.5s;
+    
+  }
+ .carousel-caption h3{	
+    font-size: 15px;
+    text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+          transition: 0.5s;
+  }
+
+
+
+}
+.footerli{
+  text-align:left;
+  margin-left: 100px;
+  margin-right: 125px;
+}
+  }
+@media (max-width: 768px) {
+
+
+
+
+		  .carousel-caption{
+
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+text-transform: uppercase;
+
+
+  }
+
+    .carousel-caption h1{
+    font-size: 40px;
+    text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+        margin-top: -40px;
+    transition: 0.5s;
+  }
+      .carousel-caption h3{
+    font-size: 10px;
+    text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+      transition: 0.5s;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+
+	  .carousel-caption{
+
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+text-transform: uppercase;
+
+
+  }
+
+
+
+  .carousel-caption h1{
+    font-size: 23px;
+    text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+        margin-top: -5px;
+            transition: 0.5s;
+  }
+
+    .carousel-caption h3{
+    font-size: 13px;
+    text-transform: uppercase;
+        text-shadow: 1px 1px 15px #000;
+            transition: 0.5s;
+
+  }
+
+  .carousel-caption{
+
+position: absolute;
+top: 50%;
+transform: translateY(-130%);
+  }
+
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

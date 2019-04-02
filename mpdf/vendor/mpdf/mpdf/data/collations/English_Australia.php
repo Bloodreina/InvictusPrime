@@ -1,0 +1,11 @@
+Microsoft.VisualStudio.Xamarin.PclProfiles,version=1.0.9.1' from cache
+[146c:0005][2018-08-08T10:54:56] BEGIN: Removing package 'Microsoft.VisualStudio.Android.SdkManager,version=1.0.155.11' from cache
+[146c:0005][2018-08-08T10:54:56] END: Removing package 'Microsoft.VisualStudio.Android.SdkManager,version=1.0.155.11' from cache
+[146c:0005][2018-08-08T10:54:56] BEGIN: Removing package 'Microsoft.VisualStudio.Android.DeviceManager,version=1.0.555.64' from cache
+[146c:0005][2018-08-08T10:54:56] END: Removing package 'Microsoft.VisualStudio.Android.DeviceManager,version=1.0.555.64' from cache
+[146c:0005][2018-08-08T10:54:56] BEGIN: Removing package 'Microsoft.VisualStudio.Xamarin.Preparation,version=15.0.26621.2' from cache
+[146c:0005][2018-08-08T10:54:56] END: Removing package 'Microsoft.VisualStudio.Xamarin.Preparation,version=15.0.26621.2' from cache
+[146c:0005][2018-08-08T10:54:56] BEGIN: Removing package 'Microsoft.VisualStudio.Workload.Office,version=15.7.27520.0' from cache
+[146c:0005][2018-08-08T10:54:56] END: Removing package 'Microsoft.VisualStudio.Workload.Office,version=15.7.27520.0' from cache
+[146c:0005][2018-08-08T10:54:56] BEGIN: Removing package 'Microsoft.VisualStudio.Component.TeamOffice,version=15.7.27625.0' from cache
+[146c:0005][2018-08-08T10:54:56] END: Removing package 'Microsoft.VisualStudio.Component.TeamOffice,version=15.7.27625.

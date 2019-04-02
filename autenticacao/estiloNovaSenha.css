@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Pacifico|Source+Sans+Pro');
+
+	body{
+		background-image: url('..img/img4.png');
+	}
+	.cardLogin{
+		padding: 30px 0 0 0;
+		width: 360px;
+		margin: 0 auto;
+		transition: 0.5s;
+	}
+	.laranjaEasy{
+		background-color: #f6ab33;
+	}
+	.azulEasy{
+		background-color: #00142d;
+	}
+
+	.alinharTextoCentro{
+		text-align: center;
+	}
+	.flutuarDireita{
+		float: right;
+	}
+	.flutuarEsquerda{
+		float: left;
+	}
+	#divPrincipal{
+		margin: 0 auto;
+	}
+	.imgLogo{
+		width: 0px;
+		transition: 0.5s;
+	}
+	#pInforme{
+		text-align: center;
+	}
+	#invictus{
+		text-align: center;
+		font-family: 'Cinzel', serif;
+		color: white;
+		font-size: 35px;
+		transition: 0.5s;
+	}
+	#prime{
+		font-family: 'Pacifico', cursive;
+		color: white;
+		font-size: 35px;
+		transition: 0.5s;
+	}
+	#divTitulo{
+		width: 260px;
+		margin: 0 auto;
+		margin-top: 95px;
+		transition: 0.5s;
+	}
+	#spanEntrar{
+		font-family: 'Cinzel', serif;
+		font-weight: lighter;
+		color: #fff;
+		font-size: 20px;
+		transition: 0.5s;
+	}
+
+	*Dispositivos extra pequenos (Celulares em modo retrato, menores que 576px)*/
+	@media (min-width: 100px) and (max-width: 575.98px) {
+		#btEntrar{
+			margin-top: 10px;
+		}
+		#divLogoEasy{
+			position: absolute;
+			margin: 0 auto;
+			transition: 0.5s;
+			margin-left: 20px;
+		}
+		.imgLogo{
+			width: 0px;
+			transition: 0.5s;
+		}
+		#divLogoInvictus{
+			float: right;
+			margin-top: -280px;
+			margin-right: 20px;
+			transition: 0.5s;
+		}
+	}
+
+	/*Dispositivos pequenos (Celulares em modo paisagem, 576px pra cima)*/
+	@media (min-width: 576px) and (max-width: 767.98px){
+		#btEntrar{
+			margin-top: 10px;
+		}
+		#divLogoEasy{
+			position: absolute;
+			margin: 0 auto;
+			transition: 0.5s;
+			margin-left: 20px;
+		}
+		.imgLogo{
+			width: 0px;
+			transition: 0.5s;
+		}
+		#divLogoInvictus{
+			float: right;
+			margin-top: -280px;
+			margin-right: 20px;
+			transition: 0.5s;
+		}
+	}
+
+	/*Dispositivos medios (tablets, 768 pra cima)*/
+	@media (min-width: 768px) and (max-width: 991.98px){
+		#btEntrar{
+			margin-top: 10px;
+		}
+		#divLogoEasy{
+			position: absolute;
+			margin: 0 auto;
+			transition: 0.5s;
+			margin-left: 20px;
+		}
+		.imgLogo{
+			width: 0px;
+			transition: 0.5s;
+		}
+		#divLogoInvictus{
+			float: right;
+			margin-top: -280px;
+			margin-right: 20px;
+			transition: 0.5s;
+		}
+	}
+
+
+	/*Dispositivos grandes (desktops, 992 pra cima)*/
+	@media (min-width: 992px) and (max-width: 1199.98px){
+		#btEntrar{
+			margin-top: 10px;
+		}
+		#divLogoEasy{
+			position: absolute;
+			margin: 0 auto;
+			transition: 0.5s;
+			margin-left: 20px;
+		}
+		.imgLogo{
+			width: 0px;
+			transition: 0.5s;
+		}
+		#divLogoInvictus{
+			float: right;
+			margin-top: -280px;
+			margin-right: 20px;
+			transition: 0.5s;
+		}
+	}
+
+	
+	/*Dispositivos extra grandes (large desktops, 1200px pra cima )*/
+	@media (min-width: 1200px){
+		#btEntrar{
+			margin-top: 10px;
+		}
+		#divLogoEasy{
+			position: absolute;
+			margin: 0 auto;
+			transition: 0.5s;
+			margin-left: 20px;
+		}
+		.imgLogo{
+			width: 400px;
+			transition: 0.5s;
+		}
+		#divLogoInvictus{
+			float: right;
+			margin-top: -280px;
+			margin-right: 20px;
+			transition: 0.5s;
+		}
+	}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Pacifico|Source+Sans+Pro');
+	
+	body{
+		background-image: url('img/img4.png');
+	}
+
+
+	#logoInvictus{
+		width: 140px;
+		margin-left: 25px;
+		font-family: 'Cinzel', serif;
+		font-size: 30px;
+		color: black;
+	}
+	#prime{
+		font-family: 'Pacifico', cursive;
+		font-size: 30px;
+		color: black;
+	}
+	.escondebt{
+		display: none;
+	}
+	.divQuerAutenticar{
+		margin-top: 2em;
+	}
+
+	/*Footer*/
+	footer{
+		margin-top: 10px;
+	  	background-color: #343A40;
+	  	padding-top: 2rem;
+	}
+	ul{
+		list-style-type:none;
+		text-align: center;
+	}
+	.social a{
+		font-size: 4.5em;
+	 	padding:3rem;
+	}
+
+	.social2 a{
+	  	font-size: 2.5em;
+		page-break-after: 1rem;
+	}
+	.fa-facebook
+	{
+		color:#3b5998;
+
+	}
+	.fa-twitter{
+	  	color: #00aced;
+	}
+
+	.fa-google-plus-g{
+	  	color: #dd4b39;
+	}
+
+	.fa-instagram{
+	  	color: #517fa4;
+	}
+
+	.fa-youtube{
+	  	color: #bb0000;
+	}
+
+	.fa-facebook:hover,
+
+	.fa-twitter:hover,
+
+	.fa-google-plus-g:hover,
+
+	.fa-instagram:hover,
+
+	.fa-youtube:hover{
+	 	color: #d5d5d5;
+	}
+	/*Fim Footer*/
+
+	#btMenu{
+		font-size: 35px;
+		color: white;
+	}
+
+	.divPrincipal{
+		margin: 0 auto;
+		border: 1px solid rgba(0,0,0,0.5);
+	    border-radius: 5px;
+	    margin-top: 20px;
+		width: 1000px;
+		height: 1800px;
+		background-color: white;
+	}
+	.tamanhoCard{
+		width: 800px;
+		height: 110px;
+		margin: 0 auto;
+		border-width: 1px 1px 0px 1px;
+		border-style: solid;
+	    background-color: black;
+	    background-image: url('img/teclado.jpeg');
+	}
+	.tamanhoCard1{
+		width: 800px;
+		height: 140px;
+		margin: 0 auto;
+		border-width: 0px 1px 1px 1px;
+		border-style: solid;
+	    background-color: white;
+	}
+	.divFotoTotal{
+		margin-top: 100px;
+	}
+	.cardInformacoes{
+		width: 800px;
+		height: 930px;
+		margin: 0 auto;
+		background-color: red;
+	}
+	.envoltaDivInfoUsu{
+		width: 380px;
+	    height: 300px;
+	    border: 1px solid rgba(0,0,0,0.5);
+	    border-radius: 5px;
+	    margin: 5px;
+	    position: absolute;
+	    margin-left: 0.5em;
+  	}
+  	.envoltaDiv1{
+		width: 380px;
+	    height: 300px;
+	    border: 1px solid rgba(0,0,0,0.5);
+	    border-radius: 5px;
+	    margin: 5px;
+	    position: absolute;
+	    margin-left: 25.5em;
+  	}
+  	.envoltaDiv2{
+		width: 380px;
+	    height: 300px;
+	    border: 1px solid rgba(0,0,0,0.5);
+	    border-radius: 5px;
+	    margin: 5px;
+	    position: absolute;
+	    margin-top: 20em;
+	    margin-left: 0.5em;
+  	}
+  	.envoltaDiv3{
+		width: 780px;
+	    height: 600px;
+	    border: 1px solid rgba(0,0,0,0.5);
+	    border-radius: 5px;
+	    margin: 5px;
+	    margin-top: 20em;
+	    position: absolute;
+	    margin-left: 0.5em;
+  	}
+  	.infoGerais{
+  		margin-top: 10px;
+  	}
+  	.paragrafosInfo{
+  		margin-left: 15px;
+  	}
+  	hr{
+  		width: 350px;
+  		background-color: black;
+  	}
+  	.tableCoisas{
+  		margin: 0 auto;
+  		width: 760px;
+  	}
+  	.tablelol{
+  		border-radius: 5px;
+  	}
+  	.tituloInfoUsu{
+  		width: 100%;
+  		height: 40px;
+  		background-color: black;
+  	}
+  	.espacoAtividade1{
+  		margin-left: 2.5em;
+  	}
+  	.espacoAtividade2{
+  		margin-left: 5em;
+  	}
+  	.espacoAtividade3{
+  		margin-left: 3.5em;
+  	}
+  	.espacoAtividade4{
+  		margin-left: 2.7em;
+  	}
+
+
+
+  	.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
